@@ -1,11 +1,6 @@
 package main
 
-import (
-	"LeetCode/Easy"
-	"fmt"
-)
-
-func main(){
+func main() {
 
 	//TwoSum
 	/*nums := []int{3,2,3}
@@ -49,5 +44,9 @@ func main(){
 
 	//fmt.Println(Easy.ConvertToTitle(52))
 
-	fmt.Println(Easy.FactorialTrailingZeroes(30))
+	//fmt.Println(Easy.FactorialTrailingZeroes(30))
+
+	//fmt.Println(Easy.IsAnagram("anagram", "nagaram"))
+
+	//fmt.Println(Medium.ThreeSum([]int{0, 0, 0}))
 }
