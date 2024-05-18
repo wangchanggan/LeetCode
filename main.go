@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"leet-code/Hard"
+)
+
 func main() {
 
 	//TwoSum
@@ -49,4 +54,5 @@ func main() {
 	//fmt.Println(Easy.IsAnagram("anagram", "nagaram"))
 
 	//fmt.Println(Medium.ThreeSum([]int{0, 0, 0}))
+	fmt.Println(Hard.MinimumDifference([]int{2, -1, 0, 4, -2, -9}))
 }
